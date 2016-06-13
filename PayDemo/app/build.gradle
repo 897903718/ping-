@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0 rc2"
+
+    defaultConfig {
+        applicationId "chanlytech.paydemo"
+        minSdkVersion 9
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.yolanda.nohttp:nohttp:1.0.0'
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/alipaySDK-20150818.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/libpingpp-2.0.6.jar')
+    compile files('libs/okhttp-2.0.0-RC1.jar')
+    compile files('libs/okio-1.0.0.jar')
+    compile files('libs/UPPayAssistEx.jar')
+    compile files('libs/UPPayPluginEx.jar')
+    compile project(':baiduwalletrefactorlib')
+    compile project(':absframe')
+}

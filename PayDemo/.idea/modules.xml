@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PayDemo.iml" filepath="$PROJECT_DIR$/PayDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/absframe/absframe.iml" filepath="$PROJECT_DIR$/absframe/absframe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baiduwalletrefactorlib/baiduwalletrefactorlib.iml" filepath="$PROJECT_DIR$/baiduwalletrefactorlib/baiduwalletrefactorlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pingpp/pingpp.iml" filepath="$PROJECT_DIR$/pingpp/pingpp.iml" />
+    </modules>
+  </component>
+</project>
